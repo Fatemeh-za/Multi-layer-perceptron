@@ -152,7 +152,7 @@ class MLP:
           test_history.append(test_acc)
           train_history.append(train_acc)
 
-      return loss_history,test_history,train_history # This line should be indented by four spaces to the left
+      return loss_history,test_history,train_history 
 
 
     def predict(self,X):
